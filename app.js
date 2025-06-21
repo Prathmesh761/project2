@@ -1,6 +1,7 @@
 //Adding new Feature
-let btn=document.querySelector("#btn");
-let head=document.querySelector("#heading");
-btn.addEventListener(cancelIdleCallback,()=>{
-    head.style.innerText="Button CLicked";
+let btn=document.getElementById("btn");
+let head=document.getElementById("heading");
+btn.addEventListener("click",()=>{
+    console.log("btn clicked");
+    head.innerText="clicked";
 })
