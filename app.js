@@ -5,3 +5,5 @@ btn.addEventListener("click",()=>{
     console.log("btn clicked");
     head.innerText="clicked";
 })
+
+//doing some change to reset again
